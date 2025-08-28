@@ -1,0 +1,27 @@
+Title,Description,Difficulty,Category,Tags,Example,Constraints
+Two Sum,"Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",Easy,Array,"Array, Hash Table","Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].","2 <= nums.length <= 10^4
+-10^9 <= nums[i] <= 10^9
+-10^9 <= target <= 10^9
+Only one valid answer exists."
+Add Two Numbers,"You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.",Medium,Linked List,"Linked List, Math","Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.","The number of nodes in each linked list is in the range [1, 100].
+0 <= Node.val <= 9
+It is guaranteed that the list represents a number that does not have leading zeros."
+Longest Substring Without Repeating Characters,"Given a string s, find the length of the longest substring without repeating characters.",Medium,String,"Hash Table, String, Sliding Window","Input: s = ""abcabcbb""
+Output: 3
+Explanation: The answer is ""abc"", with the length of 3.","0 <= s.length <= 5 * 10^4
+s consists of English letters, digits, symbols and spaces."
+Median of Two Sorted Arrays,"Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.",Hard,Array,"Array, Binary Search, Divide and Conquer","Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.","nums1.length == m
+nums2.length == n
+0 <= m <= 1000
+0 <= n <= 1000
+1 <= m + n <= 2000
+-10^6 <= nums1[i], nums2[i] <= 10^6"
+Valid Parentheses,"Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",Easy,String,"String, Stack","Input: s = ""()[]{}""
+Output: true","1 <= s.length <= 10^4
+s consists of parentheses only '()[]{}'."
